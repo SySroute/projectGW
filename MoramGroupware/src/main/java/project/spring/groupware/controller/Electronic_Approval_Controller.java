@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(value="/approval")
+@RequestMapping(value="/draft")
 public class Electronic_Approval_Controller {
 	private static final Logger logger =
 			LoggerFactory.getLogger(Electronic_Approval_Controller.class);
 	
-	@RequestMapping(value="approval-myApproval", method=RequestMethod.GET)
+	@RequestMapping(value="/draft/draft-myApproval", method=RequestMethod.GET)
 	public void approval(){
 		logger.info("approval called");
 	}
