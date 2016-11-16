@@ -52,7 +52,7 @@
 
 
 					<li><a href="#"><i class="fa fa-desktop "></i>MAIN PAGE</a></li>
-					<li><a href="#"><i class="fa fa-edit "></i>aa결제<span
+					<li><a href="#"><i class="fa fa-edit "></i>결제<span
 							class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
 							<li><a href="/groupware/approval/approval-myApproval">나의 결재함page</a></li>
