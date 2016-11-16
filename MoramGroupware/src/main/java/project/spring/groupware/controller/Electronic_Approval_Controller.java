@@ -12,7 +12,7 @@ public class Electronic_Approval_Controller {
 	private static final Logger logger =
 			LoggerFactory.getLogger(Electronic_Approval_Controller.class);
 	
-	@RequestMapping(value="draft-myApproval", method=RequestMethod.GET)
+	@RequestMapping(value="/draft/draft-myApproval", method=RequestMethod.GET)
 	public void approval(){
 		logger.info("approval called");
 	}
