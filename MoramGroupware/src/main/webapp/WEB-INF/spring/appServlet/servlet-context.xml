@@ -22,7 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="project.spring.groupware" />
-	
+	<context:component-scan base-package="project.spring.groupware.controller"></context:component-scan>
 	
 	
 </beans:beans>
