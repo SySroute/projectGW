@@ -55,7 +55,7 @@
 					<li><a href="#"><i class="fa fa-edit "></i>결제<span
 							class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
-							<li><a href="/groupware/draft/draft-myApproval">나의 결재함page</a></li>
+							<li><a href="/groupware/draft/draft-myApproval">나의 결재함page1</a></li>
 							<li><a href="#">미결함</a></li>
 							<li><a href="#">반려함</a></li>
 							<li><a href="#">기결함</a></li>
