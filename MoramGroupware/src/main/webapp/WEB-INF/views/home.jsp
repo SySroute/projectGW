@@ -19,6 +19,11 @@
 <!-- GOOGLE FONTS-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans'
 	rel='stylesheet' type='text/css' />
+	
+	<!-- 날씨 css -->
+<link href="<c:url value="/resources/assets/css/weather.css"/>"
+	rel="stylesheet" />
+	
 </head>
 <body>
 	<div id="wrapper">
@@ -208,10 +213,15 @@
 				<hr />
 				<div class="row">
 					<div class="col-md-4">
-						<div class="form-group">
+						<!-- <div class="form-group">
 							<label>Text Input Example</label> <input class="form-control" />
 							<p class="help-block">Help text here.</p>
+						</div> -->
+						
+						<div href="#" class="weather" style="width: 170px; height: 75px;">
+							<table id="weather"></table>
 						</div>
+						
 					</div>
 					<div class="col-md-4">
 						<label>Click to see blank page</label> <a href="blank.html"
@@ -459,6 +469,8 @@
 	<!-- CUSTOM SCRIPTS -->
 	<script src="<c:url value='resources/assets/js/custom.js'/>" /></script>
 
-
+	
+	<!-- 날씨 정보 css,js -->
+	<script src="<c:url value='resources/assets/js/weather.js'/>" /></script>
 </body>
 </html>
